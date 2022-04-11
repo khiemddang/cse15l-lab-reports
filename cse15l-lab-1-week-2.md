@@ -29,7 +29,7 @@ My terminal is now connected to a server in the CSE basement.
 
 &nbsp;
 
-# Trying Some Commands
+## Trying Some Commands
 
 I tried these commands on the remote server:
 
@@ -45,7 +45,7 @@ I tried these commands on the remote server:
 
 &nbsp;
 
-# Moving Files with scp
+## Moving Files with scp
 
 I created a new file on my comupter called WhereAmI.java and put this code into it:
 
@@ -68,7 +68,7 @@ It asked for my password and I put my password in. I logged into ieng6 with ssh 
 
 &nbsp;
 
-# Setting an SSH Key
+## Setting an SSH Key
 
 On my computer, I put in this command.
 
@@ -113,7 +113,7 @@ Now I needed to copy the public key to the .ssh directory of my account on the s
 
 &nbsp;
 
-# Optimizing Remote Running
+## Optimizing Remote Running
 
 I tried some commands that optimize the process for copying files to the remote server and running the files.
 

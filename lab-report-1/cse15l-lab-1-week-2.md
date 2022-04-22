@@ -1,4 +1,4 @@
-# Week 2 Lab Report
+# Lab Report 1 Week 2
 
 ## Installing VSCode
 
@@ -6,7 +6,8 @@ I downloaded [Studio Visual Code](https://code.visualstudio.com/) for my operati
 
 ![Studio Visual Code Window](studiovisualcode.png)
 
-&nbsp;
+---
+<br>
 
 ## Remotely Connecting
 
@@ -27,7 +28,8 @@ And I typed "yes" into the terminal and entered my password.
 
 My terminal is now connected to a server in the CSE basement.
 
-&nbsp;
+---
+<br>
 
 ## Trying Some Commands
 
@@ -43,7 +45,8 @@ I tried these commands on the remote server:
 
 ![runningcommands](runningcommands.png)
 
-&nbsp;
+---
+<br>
 
 ## Moving Files with scp
 
@@ -66,7 +69,8 @@ It asked for my password and I put my password in. I logged into ieng6 with ssh 
 
 ![movingfiles](movingfiles.png)
 
-&nbsp;
+---
+<br>
 
 ## Setting an SSH Key
 
@@ -111,7 +115,8 @@ Now I needed to copy the public key to the .ssh directory of my account on the s
 
 ![sshkey](sshkey.png)
 
-&nbsp;
+---
+<br>
 
 ## Optimizing Remote Running
 

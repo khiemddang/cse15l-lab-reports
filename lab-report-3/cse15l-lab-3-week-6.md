@@ -48,6 +48,17 @@ And saved it to /Users/khiemddang/.ssh/id_rsa_github.
 
 ![private-key](private-key.png)
 
+Now I can run git commands to commit and push a change to GitHub while logged into my ieng6 account
+
+![git-commands](git-commands.png)
+
+[Here is the link for the resulting commit](https://github.com/khiemddang/cse15l-lab-reports/commit/47b7ed808c386e0e5b885ec331bfb505443a6ee8)
+
+---
+<br>
+
+## Copy Whole Directories with scp -r
+
 
 
 

@@ -2,9 +2,9 @@
 
 ## Installing VSCode
 
-I downloaded [Studio Visual Code](https://code.visualstudio.com/) for my operating system (MacOS). Once it was installed, I should saw a window like this:
+I downloaded [Visual Studio Code](https://code.visualstudio.com/) for my operating system (MacOS). Once it was installed, I should saw a window like this:
 
-![Studio Visual Code Window](studiovisualcode.png)
+![Visual Studio Code Window](studiovisualcode.png)
 
 ---
 <br>

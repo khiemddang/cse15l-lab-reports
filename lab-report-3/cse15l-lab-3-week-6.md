@@ -20,6 +20,10 @@ Now, I can use this command to log in:
 
 ![ssh-ieng6](sshieng6.png)
 
+Then, I copied index.md to my account using the alias I chose.
+
+![scp](scp.png)
+
 ---
 <br>
 
@@ -36,9 +40,9 @@ Then on GitHub, I added a new SSH key and pasted my key and added the SSH key to
 I made another key so I access GitHub from my computer. I added these lines of code to my .ssh/config file:
 
     Host github.com
-    HostName github.com
-    User khiemddang
-    IdentityFile ~/.ssh/id_rsa_github
+        HostName github.com
+        User khiemddang
+        IdentityFile ~/.ssh/id_rsa_github
 
 And I generated a new private key with:
 
@@ -59,6 +63,22 @@ Now I can run git commands to commit and push a change to GitHub while logged in
 
 ## Copy Whole Directories with scp -r
 
+To copy the markdown-parse directory to the ieng6 remote sever, I used:
 
+    scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parse
+
+![copying-to-remote-server](copytoremote.png)
+
+Then I logged into my ieng6 account and compiled and ran the JUnit tests for my repository.
+
+![running-tests](runningtests.png)
+
+In order to streamline all these steps, I combined all of the commands to copy the whole directory and run the tests in one line:
+
+    scp -r . cs15lsp22aag@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6; cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+
+![copying-directory](copying.png)
+
+![running-tests](runningtests2.png)
 
 

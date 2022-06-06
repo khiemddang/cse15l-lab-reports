@@ -15,6 +15,10 @@
 
 ## [Lab Report 4 Week 8](https://khiemddang.github.io/cse15l-lab-reports/lab-report-4/cse15l-lab-4-week-8.html)
 
+<br>
+
+## ## [Lab Report 5 Week 10](https://khiemddang.github.io/cse15l-lab-reports/lab-report-5/cse15l-lab-5-week-10.html)
+
 ---
 <br>
 
